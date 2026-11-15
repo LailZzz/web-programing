@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Запропонувати місто — Мої 3 найкращі міста світу</title>
+</head>
+<body>
+  <header>
+    <h1>Мої 3 найкращі міста світу</h1>
+    <nav>
+      <a href="index.html">Головна</a>
+      <a href="city-nice.html">Ніцца</a>
+      <a href="city-tokyo.html">Токіо</a>
+      <a href="city-prague.html">Прага</a>
+      <a href="form.html">Запропонувати місто</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Запропонувати місто для наступного рейтингу</h2>
+
+    <form action="#" method="get">
+      <p>
+        <label for="name">Ім'я:</label>
+        <input type="text" id="name" name="name" required>
+      </p>
+
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </p>
+
+      <p>
+        <label for="city">Назва міста:</label>
+        <input type="text" id="city" name="city" required>
+      </p>
+
+      <p>
+        <label for="country">Країна:</label>
+        <select id="country" name="country" required>
+          <option value="">— оберіть —</option>
+          <option value="ua">Україна</option>
+          <option value="fr">Франція</option>
+          <option value="jp">Японія</option>
+          <option value="cz">Чехія</option>
+          <option value="other">Інша</option>
+        </select>
+      </p>
+
+      <fieldset>
+        <legend>Тип пропозиції:</legend>
+        <p>
+          <input type="radio" id="type-visited" name="type" value="visited" checked>
+          <label for="type-visited">Я там був(-ла)</label>
+        </p>
+        <p>
+          <input type="radio" id="type-dream" name="type" value="dream">
+          <label for="type-dream">Мрію відвідати</label>
+        </p>
+      </fieldset>
+
+      <p>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Повідомити мене, коли вийде новий рейтинг</label>
+      </p>
+
+      <p>
+        <label for="reason">Чому варто відвідати це місто?</label><br>
+        <textarea id="reason" name="reason" rows="5" cols="40"></textarea>
+      </p>
+
+      <button type="submit">Надіслати</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>Автор: Муханов Володимир Сергійович, група КН-42</p>
+  </footer>
+</body>
+</html>
