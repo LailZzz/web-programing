@@ -1,0 +1,16 @@
+{
+  "name": "acoustic-watch-lab7",
+  "version": "1.0.0",
+  "description": "Лабораторна робота 7: завантаження даних з публічного API",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass scss/main.scss css/main.css",
+    "sass": "sass --watch scss/main.scss:css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.108.2"
+  }
+}
