@@ -16,4 +16,4 @@
 
 ## Опублікований сайт
 
-https://ТВІЙ_ЛОГІН.github.io/my-best-cities/
+https://lailzzz.github.io/web-programing/
